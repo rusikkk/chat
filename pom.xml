@@ -11,9 +11,14 @@
 
     <dependencies>
         <dependency>
+            <groupId>javassist</groupId>
+            <artifactId>javassist</artifactId>
+            <version>3.12.0.GA</version>
+        </dependency>
+        <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
-            <version>4.0.0.CR3</version>
+            <version>4.1.5.Final</version>
         </dependency>
     </dependencies>
 
